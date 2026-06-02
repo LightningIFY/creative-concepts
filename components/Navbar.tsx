@@ -43,15 +43,15 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="Creative Concepts"
-              width={70}
-              height={70}
+              width={60}
+              height={60}
               priority
             />
 
             <div className="hidden sm:block">
 
               <h2
-                className="text-2xl text-yellow-500"
+                className="text-3xl text-yellow-500"
                 style={{
                   fontFamily:
                     "var(--font-playfair)",

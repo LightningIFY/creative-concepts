@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="section"
+      className="section pt-40"
     >
       <div className="max-w-5xl mx-auto text-center">
 

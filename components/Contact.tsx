@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="section text-center">
       <h2 className="text-5xl font-bold mb-4">
         Plan Your Next Event
       </h2>
@@ -11,7 +11,7 @@ export default function Contact() {
         Email: chikigoyal1544@gmail.com
       </p>
 
-      <form className="grid gap-4 max-w-2xl">
+      <form className="grid gap-4 max-w-2xl mx-auto text-left">
 
         <input
           placeholder="Your Name"
