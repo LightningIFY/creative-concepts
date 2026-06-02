@@ -1,4 +1,5 @@
 import FadeIn from "./FadeIn";
+
 const services = [
   {
     title: "Wedding Planning",
@@ -30,30 +31,36 @@ export default function Services() {
   return (
     <section id="services" className="section">
       <FadeIn>
-        <h2 className="text-5xl font-bold mb-4">
+
+        <h2 className="text-5xl font-bold mb-3">
           Our Services
         </h2>
 
-        <p className="text-gray-400 mb-12">
+        <p className="secondary-text mb-8">
           Complete event solutions under one roof.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
+
           {services.map((service) => (
             <div
               key={service.title}
-              className="card rounded-3xl p-8 border border-white/5 hover:border-yellow-500/40 transition"
+              className="card p-8 hover:-translate-y-2 transition duration-300"
             >
-              <h3 className="text-2xl font-semibold text-[#c65d7b] mb-4">
+
+              <h3 className="text-2xl font-semibold primary-text mb-4">
                 {service.title}
               </h3>
 
-              <p className="text-gray-400">
+              <p className="secondary-text">
                 {service.desc}
               </p>
+
             </div>
           ))}
+
         </div>
+
       </FadeIn>
     </section>
   );

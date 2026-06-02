@@ -1,4 +1,5 @@
 import FadeIn from "./FadeIn";
+
 const reviews = [
   {
     name: "Rahul Sharma",
@@ -17,28 +18,40 @@ const reviews = [
 export default function Testimonials() {
   return (
     <section className="section">
+
       <FadeIn>
-      <h2 className="text-5xl font-bold mb-12">
-        What Our Clients Say
-      </h2>
 
-      <div className="grid md:grid-cols-3 gap-8">
-        {reviews.map((review) => (
-          <div
-            key={review.name}
-            className="card p-6"
-          >
-            <p className="text-gray-300 mb-4">
-              "{review.text}"
-            </p>
+        <p className="uppercase tracking-[0.3em] primary-text text-center mb-4">
+          Testimonials
+        </p>
 
-            <h3 className="text-[#c65d7b] font-semibold">
-              {review.name}
-            </h3>
-          </div>
-        ))}
-      </div>
+        <h2 className="text-5xl font-bold text-center mb-8">
+          What Our Clients Say
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6">
+
+          {reviews.map((review) => (
+            <div
+              key={review.name}
+              className="card p-6"
+            >
+
+              <p className="secondary-text mb-4 italic">
+                "{review.text}"
+              </p>
+
+              <h3 className="primary-text font-semibold">
+                {review.name}
+              </h3>
+
+            </div>
+          ))}
+
+        </div>
+
       </FadeIn>
+
     </section>
   );
 }

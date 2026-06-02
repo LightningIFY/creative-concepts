@@ -11,28 +11,28 @@ export default function Stats() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
             <div>
-              <h3 className="text-5xl font-bold text-[#c65d7b]">
+              <h3 className="text-5xl font-bold primary-text">
                 70+
               </h3>
               <p>Events Managed</p>
             </div>
 
             <div>
-              <h3 className="text-5xl font-bold text-[#c65d7b]">
+              <h3 className="text-5xl font-bold primary-text">
                 8+
               </h3>
               <p>Cities Served</p>
             </div>
 
             <div>
-              <h3 className="text-5xl font-bold text-[#c65d7b]">
+              <h3 className="text-5xl font-bold primary-text">
                 3+
               </h3>
               <p>Years Experience</p>
             </div>
 
             <div>
-              <h3 className="text-5xl font-bold text-[#c65d7b]">
+              <h3 className="text-5xl font-bold primary-text">
                 100%
               </h3>
               <p>Client Satisfaction</p>
