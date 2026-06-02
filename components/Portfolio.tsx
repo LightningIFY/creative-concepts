@@ -25,26 +25,17 @@ export default function Portfolio() {
         A glimpse into the experiences we've created.
       </p>
 
-      {/* Video Section */}
-      <div className="mb-16">
+      <div className="grid lg:grid-cols-3 gap-6">
 
-        <h3 className="text-2xl md:text-3xl font-semibold mb-6">
-          Event Highlights
-        </h3>
+        {/* Featured Video */}
+        <div className="lg:col-span-1">
 
-        {/* Video Section */}
-        <div className="mb-16">
-
-          <h3 className="text-2xl md:text-3xl font-semibold mb-6">
-            Event Highlights
-          </h3>
-
-          <div className="overflow-hidden rounded-3xl border border-white/10 bg-black">
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-black h-full">
 
             <video
               controls
               playsInline
-              className="w-full h-[300px] md:h-[500px] object-cover"
+              className="w-full h-full object-cover"
             >
               <source
                 src="/portfolio/vid1.mp4"
@@ -56,25 +47,29 @@ export default function Portfolio() {
 
         </div>
 
-      </div>
+        {/* Photos */}
+        <div className="lg:col-span-2">
 
-      {/* Photos */}
-      <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 gap-6">
 
-        {images.map((img, index) => (
-          <div
-            key={index}
-            className="overflow-hidden rounded-3xl"
-          >
-            <Image
-              src={img}
-              alt={`Event ${index + 1}`}
-              width={800}
-              height={600}
-              className="w-full h-80 object-cover hover:scale-110 transition duration-500"
-            />
+            {images.map((img, index) => (
+              <div
+                key={index}
+                className="overflow-hidden rounded-3xl"
+              >
+                <Image
+                  src={img}
+                  alt={`Event ${index + 1}`}
+                  width={800}
+                  height={600}
+                  className="w-full h-72 object-cover hover:scale-110 transition duration-500"
+                />
+              </div>
+            ))}
+
           </div>
-        ))}
+
+        </div>
 
       </div>
 
