@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FadeIn from "./FadeIn";
 
 const images = [
   "/portfolio/1.jpg",
@@ -12,6 +13,7 @@ const images = [
 export default function Portfolio() {
   return (
     <section id="portfolio" className="section">
+      <FadeIn>
 
       <p className="uppercase tracking-[0.3em] text-yellow-500 mb-4">
         Portfolio
@@ -72,7 +74,7 @@ export default function Portfolio() {
         </div>
 
       </div>
-
+    </FadeIn>
     </section>
   );
 }

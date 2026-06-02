@@ -1,60 +1,78 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24 md:pt-40">
+    <section className="relative min-h-screen flex items-center justify-center pt-24">
 
-      {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/portfolio/6.jpg')",
+          backgroundImage:
+            "url('/portfolio/6.jpg')",
         }}
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/70" />
+      <div className="absolute inset-0 bg-white/50" />
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl">
+      <motion.div
+        initial={{
+          opacity: 0,
+          y: 80,
+        }}
+        animate={{
+          opacity: 1,
+          y: 0,
+        }}
+        transition={{
+          duration: 1,
+        }}
+        className="relative z-10 text-center px-4 max-w-5xl"
+      >
 
-        <p className="uppercase tracking-[0.3em] text-yellow-500 mb-4 text-sm md:text-base">
+        <p className="uppercase tracking-[0.3em] text-pink-600 mb-4">
           Creative Concepts
         </p>
 
-        <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold leading-tight">
+        <h1 className="text-5xl md:text-8xl font-bold leading-tight text-black">
+
           Creating
+
           <br />
-          <span className="text-yellow-500">
+
+          <span className="text-pink-600">
             Extraordinary Celebrations
           </span>
+
         </h1>
 
-        <p className="mt-6 text-base md:text-xl text-gray-300 max-w-3xl mx-auto">
-          Creating unforgettable weddings, birthdays,
-          anniversaries, corporate events and premium décor
-          experiences across Chhattisgarh and Odisha.
+        <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+          Creating unforgettable weddings,
+          birthdays, anniversaries and
+          premium celebrations across
+          Chhattisgarh and Odisha.
         </p>
 
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
 
           <a
             href="#contact"
-            className="px-8 py-4 rounded-full bg-yellow-500 text-black font-semibold hover:scale-105 transition"
+            className="px-8 py-4 rounded-full bg-pink-600 text-white"
           >
             Get A Quote
           </a>
 
           <a
             href="#portfolio"
-            className="px-8 py-4 rounded-full border border-white hover:bg-white hover:text-black transition"
+            className="px-8 py-4 rounded-full border border-pink-600 text-pink-600"
           >
             View Portfolio
           </a>
 
         </div>
 
-      </div>
+      </motion.div>
 
     </section>
   );

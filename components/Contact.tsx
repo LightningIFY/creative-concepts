@@ -1,6 +1,9 @@
+import FadeIn from "./FadeIn";
+
 export default function Contact() {
   return (
     <section id="contact" className="section text-center">
+      <FadeIn>
       <h2 className="text-5xl font-bold mb-4">
         Plan Your Next Event
       </h2>
@@ -11,27 +14,27 @@ export default function Contact() {
         Email: chikigoyal1544@gmail.com
       </p>
 
-      <form className="grid gap-4 max-w-2xl mx-auto text-left">
+      <form className="grid gap-4 max-w-3xl mx-auto text-left">
 
         <input
           placeholder="Your Name"
-          className="p-4 rounded-xl bg-zinc-900"
+          className="p-4 rounded-xl bg-white border border-pink-100"
         />
 
         <input
           placeholder="Phone Number"
-          className="p-4 rounded-xl bg-zinc-900"
+          className="p-4 rounded-xl bg-white border border-pink-100"
         />
 
         <input
           placeholder="Event Type"
-          className="p-4 rounded-xl bg-zinc-900"
+          className="p-4 rounded-xl bg-white border border-pink-100"
         />
 
         <textarea
           rows={5}
           placeholder="Tell us about your event"
-          className="p-4 rounded-xl bg-zinc-900"
+          className="p-4 rounded-xl bg-white border border-pink-100"
         />
 
         <button
@@ -41,6 +44,7 @@ export default function Contact() {
         </button>
 
       </form>
+      </FadeIn>
     </section>
   );
 }

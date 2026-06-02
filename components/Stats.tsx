@@ -1,54 +1,48 @@
+import FadeIn from "./FadeIn";
+
 export default function Stats() {
   return (
     <section className="section">
 
-      <div className="bg-zinc-900 rounded-3xl p-12">
+      <FadeIn>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+        <div className="card p-8">
 
-          <div>
-            <h3 className="text-5xl font-bold text-yellow-500">
-              70+
-            </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
-            <p className="mt-3 text-gray-400">
-              Events Managed
-            </p>
-          </div>
+            <div>
+              <h3 className="text-5xl font-bold text-[#c65d7b]">
+                70+
+              </h3>
+              <p>Events Managed</p>
+            </div>
 
-          <div>
-            <h3 className="text-5xl font-bold text-yellow-500">
-              5+
-            </h3>
+            <div>
+              <h3 className="text-5xl font-bold text-[#c65d7b]">
+                8+
+              </h3>
+              <p>Cities Served</p>
+            </div>
 
-            <p className="mt-3 text-gray-400">
-              Cities Served
-            </p>
-          </div>
+            <div>
+              <h3 className="text-5xl font-bold text-[#c65d7b]">
+                3+
+              </h3>
+              <p>Years Experience</p>
+            </div>
 
-          <div>
-            <h3 className="text-5xl font-bold text-yellow-500">
-              3+
-            </h3>
+            <div>
+              <h3 className="text-5xl font-bold text-[#c65d7b]">
+                100%
+              </h3>
+              <p>Client Satisfaction</p>
+            </div>
 
-            <p className="mt-3 text-gray-400">
-              Years Experience
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-5xl font-bold text-yellow-500">
-              100%
-            </h3>
-
-            <p className="mt-3 text-gray-400">
-              Client Satisfaction
-            </p>
           </div>
 
         </div>
 
-      </div>
+      </FadeIn>
 
     </section>
   );
