@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 md:pt-32">
 
       {/* Background Image */}
       <div

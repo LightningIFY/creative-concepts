@@ -19,3 +19,11 @@ body {
 .gold {
   color: #d4af37;
 }
+
+body {
+  font-family: var(--font-inter);
+}
+
+.luxury-font {
+  font-family: var(--font-playfair);
+}
