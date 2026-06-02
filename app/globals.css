@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0b0b0b;
+  color: white;
+  overflow-x: hidden;
+}
+
+.section {
+  max-width: 1400px;
+  margin: auto;
+  padding: 100px 24px;
+}
+
+.gold {
+  color: #d4af37;
+}
