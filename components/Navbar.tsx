@@ -10,7 +10,7 @@ export default function Navbar() {
     <>
       {/* Top Header */}
 
-      <div className="hidden md:block bg-yellow-900 text-white text-sm">
+      <div className="hidden md:block fixed top-0 left-0 w-full z-50 bg-yellow-900 text-white text-sm">
         <div className="max-w-7xl mx-auto px-6 py-2 flex justify-between">
 
           <div>
@@ -30,7 +30,7 @@ export default function Navbar() {
 
       {/* Main Navbar */}
 
-      <nav className="fixed top-0 md:top-10 left-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
+      <nav className="fixed top-8 left-0 w-full z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
 
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
