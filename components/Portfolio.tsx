@@ -32,17 +32,28 @@ export default function Portfolio() {
           Event Highlights
         </h3>
 
-        <div className="overflow-hidden rounded-3xl border border-white/10 bg-black">
-          <video
-            controls
-            playsInline
-            className="w-full object-contain"
-          >
-            <source
-              src="/portfolio/vid1.mp4"
-              type="video/mp4"
-            />
-          </video>
+        {/* Video Section */}
+        <div className="mb-16">
+
+          <h3 className="text-2xl md:text-3xl font-semibold mb-6">
+            Event Highlights
+          </h3>
+
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-black">
+
+            <video
+              controls
+              playsInline
+              className="w-full h-[300px] md:h-[500px] object-cover"
+            >
+              <source
+                src="/portfolio/vid1.mp4"
+                type="video/mp4"
+              />
+            </video>
+
+          </div>
+
         </div>
 
       </div>
