@@ -39,7 +39,7 @@ export default function Portfolio() {
             className="w-full max-h-[700px] object-cover"
           >
             <source
-              src="/portfolio/highlight.mp4"
+              src="/portfolio/vid1.mp4"
               type="video/mp4"
             />
           </video>
