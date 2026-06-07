@@ -57,7 +57,7 @@ export default function Hero() {
           className="
           uppercase
           tracking-[0.35em]
-          text-[#d8b26e]
+          text-[#e8b4c7]
           mb-6
           text-sm
           "
@@ -78,13 +78,13 @@ export default function Hero() {
 
           <br />
 
-          <span className="text-[#d8b26e]">
+          <span className="text-[#e8b4c7]">
             Extraordinary
           </span>
 
           <br />
 
-          <span className="text-[#d8b26e]">
+          <span className="text-[#e8b4c7]">
             Celebrations
           </span>
         </h1>
@@ -120,9 +120,10 @@ export default function Hero() {
             px-10
             py-4
             rounded-full
-            bg-[#d8b26e]
-            text-black
+            bg-[#d16d95]
+            text-white
             font-semibold
+            hover:bg-[#c45c87]
             hover:scale-105
             transition
             "
