@@ -1,10 +1,11 @@
+
 "use client";
 
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
       {/* Background Image */}
       <div
@@ -14,71 +15,79 @@ export default function Hero() {
         }}
       />
 
-      {/* Overlay */}
+      {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/55" />
 
-      {/* Content */}
+      {/* Hero Content */}
       <motion.div
-        initial={{ opacity: 0, y: 50 }}
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="relative z-10 text-center max-w-6xl mx-auto px-6 pt-24"
+        className="relative z-10 text-center max-w-7xl mx-auto px-6 pt-20"
       >
 
+        {/* Small Heading */}
         <p
-          className="uppercase tracking-[8px] text-sm md:text-base mb-10"
+          className="uppercase tracking-[10px] mb-8"
           style={{
             color: "#d8b16c",
+            fontSize: "clamp(0.9rem,1.2vw,1.1rem)",
           }}
         >
           WEDDINGS • CORPORATE EVENTS • CELEBRATIONS
         </p>
 
+        {/* Main Line */}
         <h1
-          className="leading-none text-white"
+          className="text-white leading-none"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.2rem,6vw,5.5rem)",
+            fontSize: "clamp(3.5rem,7vw,6.5rem)",
             fontWeight: 400,
           }}
         >
           Crafting Exceptional Events
         </h1>
 
-        <h1
-          className="font-serif font-medium leading-none mt-2"
+        {/* With */}
+        <h2
+          className="text-white leading-none mt-0"
           style={{
-            color: "#ffffff",
-            fontFamily: "Cormorant Garamond, serif",
-            fontSize: "clamp(3rem,5vw,4.5rem)",
+            fontFamily: "Playfair Display, serif",
+            fontSize: "clamp(3rem,5vw,5rem)",
+            fontWeight: 400,
           }}
         >
           With
-        </h1>
+        </h2>
 
-        <h1
-          className="font-serif italic font-normal leading-none mt-2"
+        {/* Luxury Italic Line */}
+        <h2
+          className="leading-none mt-[-8px]"
           style={{
-            color: "#c96384",
             fontFamily: "Cormorant Garamond, serif",
-            fontSize: "clamp(3.5rem,7vw,6rem)",
-            letterSpacing: "-0.02em",
+            fontStyle: "italic",
+            fontWeight: 500,
+            color: "#c96384",
+            fontSize: "clamp(4rem,7vw,6.8rem)",
           }}
         >
-          Style And Elegance
-        </h1>
+          Style, Elegance & Grace
+        </h2>
 
-        <p className="mt-10 text-white/90 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
+        {/* Description */}
+        <p className="mt-10 text-white/90 text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
           Creating unforgettable weddings, birthdays, anniversaries and premium
           celebrations across Chhattisgarh and Odisha.
         </p>
 
-        <div className="mt-12 flex flex-wrap justify-center gap-5">
+        {/* Buttons */}
+        <div className="mt-14 flex flex-wrap justify-center gap-5">
           <a
             href="#contact"
             className="px-10 py-4 rounded-full text-white font-semibold transition hover:scale-105"
             style={{
-              backgroundColor: "#b85c7a",
+              backgroundColor: "#c96384",
             }}
           >
             Get A Quote
@@ -88,7 +97,7 @@ export default function Hero() {
             href="#portfolio"
             className="px-10 py-4 rounded-full border-2 text-white font-semibold transition hover:bg-white hover:text-black"
             style={{
-              borderColor: "#b85c7a",
+              borderColor: "#c96384",
             }}
           >
             View Portfolio
@@ -99,3 +108,4 @@ export default function Hero() {
     </section>
   );
 }
+
