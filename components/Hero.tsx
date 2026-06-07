@@ -25,9 +25,9 @@ export default function Hero() {
         }}
       />
 
-      {/* Dark Overlay */}
+      {/* Darker Overlay */}
 
-      <div className="absolute inset-0 bg-black/45" />
+      <div className="absolute inset-0 bg-black/60" />
 
       {/* Content */}
 
@@ -72,6 +72,7 @@ export default function Hero() {
           font-bold
           leading-tight
           text-white
+          drop-shadow-lg
           "
         >
           Creating
@@ -94,7 +95,7 @@ export default function Hero() {
           mt-8
           text-lg
           md:text-xl
-          text-white/90
+          text-white/95
           max-w-3xl
           mx-auto
           leading-9
