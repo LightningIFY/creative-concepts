@@ -50,11 +50,11 @@ export default function Hero() {
           "
       >
 
-        <p className="uppercase tracking-[0.3em] text-pink-600 mb-4">
+        <p className="uppercase tracking-[0.3em] text-[#d8b26e] mb-4">
           Creative Concepts
         </p>
 
-        <h1 className="text-5xl md:text-8xl font-bold leading-tight text-black">
+        <h1 className="text-5xl md:text-8xl font-bold leading-tight text-white">
 
           Creating
 
@@ -66,7 +66,7 @@ export default function Hero() {
 
         </h1>
 
-        <p className="mt-8 mb-4 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-9">
+        <p className="mt-8 mb-4 text-lg md:text-xl text-white-700 max-w-3xl mx-auto leading-9">
           Creating unforgettable weddings,
           birthdays, anniversaries and
           premium celebrations across
