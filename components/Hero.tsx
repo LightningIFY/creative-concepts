@@ -4,7 +4,18 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24">
+    <section
+      className="
+        relative
+        min-h-[115vh]
+        flex
+        items-center
+        justify-center
+        pt-28
+        pb-24
+        overflow-hidden
+      "
+    >
 
       <div
         className="absolute inset-0 bg-cover bg-center"
@@ -14,7 +25,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="absolute inset-0 bg-white/50" />
+      <div className="absolute inset-0 bg-black/25 backdrop-brightness-90" />
 
       <motion.div
         initial={{
@@ -28,7 +39,15 @@ export default function Hero() {
         transition={{
           duration: 1,
         }}
-        className="relative z-10 text-center px-4 max-w-5xl"
+        className="
+          relative
+          z-10
+          text-center
+          px-6
+          max-w-6xl
+          mx-auto
+          pb-12
+          "
       >
 
         <p className="uppercase tracking-[0.3em] text-pink-600 mb-4">
@@ -47,14 +66,14 @@ export default function Hero() {
 
         </h1>
 
-        <p className="mt-6 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
+        <p className="mt-8 mb-4 text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-9">
           Creating unforgettable weddings,
           birthdays, anniversaries and
           premium celebrations across
           Chhattisgarh and Odisha.
         </p>
 
-        <div className="mt-10 flex justify-center gap-4 flex-wrap">
+        <div className="mt-14 flex justify-center gap-6 flex-wrap">
 
           <a
             href="#contact"
