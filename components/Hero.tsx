@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-start overflow-hidden pt-40">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
       {/* Background */}
       <div
@@ -22,7 +22,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="relative z-10 text-center max-w-7xl mx-auto px-6 pt-40"
+        className="relative z-10 text-center max-w-7xl mx-auto px-6 pt-20 md:pt-0"
       >
         {/* Top Text */}
         <p
