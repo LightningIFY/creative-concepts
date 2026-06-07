@@ -22,7 +22,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="relative z-10 text-center max-w-7xl mx-auto px-6"
+        className="relative z-10 text-center max-w-7xl mx-auto px-6 pt-20 md:pt-0"
       >
         {/* Top Text */}
         <p
@@ -72,7 +72,7 @@ export default function Hero() {
             fontWeight: 500,
             lineHeight: "1.15",
             color: "#c96384",
-            marginTop: "4px",
+            marginTop: "-2px",
           }}
         >
           Style, Elegance & Grace
