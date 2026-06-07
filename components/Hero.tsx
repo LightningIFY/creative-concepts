@@ -28,48 +28,50 @@ export default function Hero() {
 
         {/* Small Heading */}
         <p
-          className="uppercase tracking-[10px] mb-8"
+          className="uppercase tracking-[10px] mb-10"
           style={{
             color: "#d8b16c",
-            fontSize: "clamp(0.9rem,1.2vw,1.1rem)",
+            fontSize: "0.95rem",
+            letterSpacing: "0.45em",
           }}
         >
           WEDDINGS • CORPORATE EVENTS • CELEBRATIONS
         </p>
 
-        {/* Main Line */}
         <h1
-          className="text-white leading-none"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.5rem,7vw,6.5rem)",
             fontWeight: 400,
+            fontSize: "clamp(3rem,5vw,5rem)",
+            lineHeight: "0.95",
+            color: "#fff",
           }}
         >
           Crafting Exceptional Events
         </h1>
 
-        {/* With */}
         <h2
-          className="text-white leading-none mt-0"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3rem,5vw,5rem)",
             fontWeight: 400,
+            fontSize: "clamp(2.8rem,4vw,4.5rem)",
+            lineHeight: "0.9",
+            color: "#fff",
+            marginTop: "-6px",
           }}
         >
           With
         </h2>
 
-        {/* Luxury Italic Line */}
         <h2
-          className="leading-none mt-[-8px]"
           style={{
-            fontFamily: "Cormorant Garamond, serif",
+            fontFamily: '"Cormorant Garamond", serif',
             fontStyle: "italic",
             fontWeight: 500,
+            fontSize: "clamp(3.3rem,5vw,5.2rem)",
+            lineHeight: "0.95",
             color: "#c96384",
-            fontSize: "clamp(4rem,7vw,6.8rem)",
+            marginTop: "-12px",
           }}
         >
           Style, Elegance & Grace
