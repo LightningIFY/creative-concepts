@@ -26,7 +26,7 @@ export default function Hero() {
       >
         {/* Top Text */}
         <p
-          className="uppercase mb-10"
+          className="uppercase mb-10 mt-16"
           style={{
             color: "#d8b16c",
             letterSpacing: "0.45em",
