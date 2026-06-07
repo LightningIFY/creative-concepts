@@ -42,7 +42,7 @@ export default function Hero() {
             fontFamily: "Playfair Display, serif",
             fontSize: "clamp(3.8rem,6vw,5.8rem)",
             fontWeight: 400,
-            lineHeight: "1.1",
+            lineHeight: "1.05",
             color: "#ffffff",
           }}
         >
@@ -55,9 +55,9 @@ export default function Hero() {
             fontFamily: "Playfair Display, serif",
             fontSize: "clamp(3.8rem,6vw,5.8rem)",
             fontWeight: 400,
-            lineHeight: "1.1",
+            lineHeight: "1",
             color: "#ffffff",
-            marginTop: "12px",
+            marginTop: "4px",
           }}
         >
           With
@@ -70,16 +70,16 @@ export default function Hero() {
             fontStyle: "italic",
             fontSize: "clamp(4rem,6vw,6rem)",
             fontWeight: 500,
-            lineHeight: "1.15",
+            lineHeight: "1",
             color: "#c96384",
-            marginTop: "-2px",
+            marginTop: "-24px",
           }}
         >
           Style, Elegance & Grace
         </h2>
 
         {/* Description */}
-        <p className="mt-12 text-white text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
+        <p className="mt-10 text-white text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
           Creating unforgettable weddings, birthdays, anniversaries and premium
           celebrations across Chhattisgarh and Odisha.
         </p>
@@ -110,4 +110,3 @@ export default function Hero() {
     </section>
   );
 }
-
