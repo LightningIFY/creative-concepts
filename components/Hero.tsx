@@ -46,23 +46,23 @@ export default function Hero() {
         </h1>
 
         <h1
-          className="leading-none mt-2 text-white"
+          className="font-serif font-medium leading-none mt-2"
           style={{
-            fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3rem,5vw,5rem)",
-            fontWeight: 400,
+            color: "#ffffff",
+            fontFamily: "Cormorant Garamond, serif",
+            fontSize: "clamp(3rem,5vw,4.5rem)",
           }}
         >
           With
         </h1>
 
         <h1
-          className="leading-none mt-2 italic"
+          className="font-serif italic font-normal leading-none mt-2"
           style={{
-            fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.2rem,6vw,5.5rem)",
-            fontWeight: 400,
-            color: "#b85c7a",
+            color: "#c96384",
+            fontFamily: "Cormorant Garamond, serif",
+            fontSize: "clamp(3.5rem,7vw,6rem)",
+            letterSpacing: "-0.02em",
           }}
         >
           Style And Elegance
