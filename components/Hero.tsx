@@ -42,7 +42,18 @@ export default function Hero() {
             fontWeight: 400,
           }}
         >
-          Turning Your Vision
+          Crafting Exceptional Events
+        </h1>
+
+        <h1
+          className="leading-none mt-2 text-white"
+          style={{
+            fontFamily: "Playfair Display, serif",
+            fontSize: "clamp(3rem,5vw,5rem)",
+            fontWeight: 400,
+          }}
+        >
+          With
         </h1>
 
         <h1
@@ -54,19 +65,7 @@ export default function Hero() {
             color: "#b85c7a",
           }}
         >
-          Into Extraordinary
-        </h1>
-
-        <h1
-          className="leading-none italic"
-          style={{
-            fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.2rem,6vw,5.5rem)",
-            fontWeight: 400,
-            color: "#b85c7a",
-          }}
-        >
-          Celebrations
+          Style And Elegance
         </h1>
 
         <p className="mt-10 text-white/90 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
