@@ -72,7 +72,7 @@ export default function Hero() {
             fontWeight: 500,
             lineHeight: "1",
             color: "#c96384",
-            marginTop: "-28px",
+            marginTop: "-32px",
           }}
         >
           Style, Elegance & Grace
