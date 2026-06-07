@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
 
-      {/* Background */}
+      {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -24,44 +24,44 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="relative z-10 text-center max-w-6xl mx-auto px-6 pt-24"
       >
+
         <p
-          className="uppercase tracking-[8px] text-sm mb-8"
+          className="uppercase tracking-[8px] text-sm md:text-base mb-10"
           style={{
             color: "#d8b16c",
-            letterSpacing: "8px",
           }}
         >
-          CREATIVE CONCEPTS
+          WEDDINGS • CORPORATE EVENTS • CELEBRATIONS
         </p>
 
         <h1
           className="leading-none text-white"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.5rem,7vw,6rem)",
+            fontSize: "clamp(3.2rem,6vw,5.5rem)",
             fontWeight: 400,
           }}
         >
-          Creating
+          Turning Your Vision
         </h1>
 
         <h1
           className="leading-none mt-2"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.5rem,7vw,6rem)",
+            fontSize: "clamp(3.2rem,6vw,5.5rem)",
             fontWeight: 600,
             color: "#b85c7a",
           }}
         >
-          Extraordinary
+          Into Extraordinary
         </h1>
 
         <h1
           className="leading-none mt-2"
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.5rem,7vw,6rem)",
+            fontSize: "clamp(3.2rem,6vw,5.5rem)",
             fontWeight: 600,
             color: "#b85c7a",
           }}
@@ -69,7 +69,7 @@ export default function Hero() {
           Celebrations
         </h1>
 
-        <p className="mt-10 text-white/90 text-lg max-w-4xl mx-auto leading-relaxed">
+        <p className="mt-10 text-white/90 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
           Creating unforgettable weddings, birthdays, anniversaries and premium
           celebrations across Chhattisgarh and Odisha.
         </p>
@@ -95,6 +95,7 @@ export default function Hero() {
             View Portfolio
           </a>
         </div>
+
       </motion.div>
     </section>
   );
