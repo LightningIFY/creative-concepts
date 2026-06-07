@@ -46,11 +46,11 @@ export default function Hero() {
         </h1>
 
         <h1
-          className="leading-none mt-2"
+          className="leading-none mt-2 italic"
           style={{
             fontFamily: "Playfair Display, serif",
             fontSize: "clamp(3.2rem,6vw,5.5rem)",
-            fontWeight: 600,
+            fontWeight: 400,
             color: "#b85c7a",
           }}
         >
@@ -58,11 +58,11 @@ export default function Hero() {
         </h1>
 
         <h1
-          className="leading-none mt-2"
+          className="leading-none italic"
           style={{
             fontFamily: "Playfair Display, serif",
             fontSize: "clamp(3.2rem,6vw,5.5rem)",
-            fontWeight: 600,
+            fontWeight: 400,
             color: "#b85c7a",
           }}
         >
