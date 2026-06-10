@@ -53,11 +53,11 @@ export default function Hero() {
         <h2
           style={{
             fontFamily: "Playfair Display, serif",
-            fontSize: "clamp(3.2rem,6vw,4.6rem)",
+            fontSize: "clamp(2.6rem,6vw,4.6rem)",
             fontWeight: 400,
             lineHeight: "1",
             color: "#ffffff",
-            marginTop: "0px",
+            marginTop: "-2px",
           }}
         >
           With
