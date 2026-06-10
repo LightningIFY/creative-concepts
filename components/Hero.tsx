@@ -69,7 +69,7 @@ export default function Hero() {
             fontFamily: "Playfair Display, serif",
             fontStyle: "italic",
             fontSize: "clamp(4rem,6vw,6rem)",
-            fontWeight: 500,
+            fontWeight: 300,
             lineHeight: "1",
             color: "#ffffff",
             marginTop: "-16px",
