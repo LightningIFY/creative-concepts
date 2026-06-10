@@ -57,7 +57,7 @@ export default function Hero() {
             fontWeight: 400,
             lineHeight: "1",
             color: "#ffffff",
-            marginTop: "4px",
+            marginTop: "2px",
           }}
         >
           With
