@@ -66,7 +66,7 @@ export default function Hero() {
         {/* Line 3 */}
         <h2
           style={{
-            fontFamily: "var(--font-bodoni)",
+            fontFamily: "Playfair Display, serif",
             fontStyle: "italic",
             fontSize: "clamp(4rem,6vw,6rem)",
             fontWeight: 500,
