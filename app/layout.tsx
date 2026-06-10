@@ -40,13 +40,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${montserrat.variable}`}
+        className={`${playfair.variable} ${montserrat.variable} {bodoni.variable}`}
       >
         {children}
       </body>
-      <body className={bodoni.variable}>
-        
-      </body>
+      
     </html>
   );
 }
