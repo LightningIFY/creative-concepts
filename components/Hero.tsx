@@ -71,7 +71,7 @@ export default function Hero() {
             fontSize: "clamp(4rem,6vw,6rem)",
             fontWeight: 500,
             lineHeight: "1",
-            color: "#c96384",
+            color: "#ffffff",
             marginTop: "-8px",
           }}
         >
