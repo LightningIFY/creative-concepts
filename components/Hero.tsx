@@ -33,7 +33,7 @@ export default function Hero() {
             fontSize: "0.95rem",
           }}
         >
-          WEDDINGS • CORPORATE EVENTS • CELEBRATIONS
+          WEDDINGS • EVENTS • CELEBRATIONS
         </p>
 
         {/* Line 1 */}
