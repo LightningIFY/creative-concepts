@@ -69,10 +69,10 @@ export default function Hero() {
             fontFamily: "Playfair Display, serif",
             fontStyle: "italic",
             fontSize: "clamp(4rem,6vw,6rem)",
-            fontWeight: 300,
+            fontWeight: 200,
             lineHeight: "1",
             color: "#ffffff",
-            marginTop: "-16px",
+            marginTop: "2px",
           }}
         >
           Style, Elegance & Grace
