@@ -71,7 +71,7 @@ export default function Hero() {
             fontSize: "clamp(4rem,6vw,6rem)",
             fontWeight: 200,
             lineHeight: "1",
-            color: "#ffffff",
+            color: "#c96384",
             marginTop: "2px",
           }}
         >
@@ -80,8 +80,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="mt-10 text-white text-lg md:text-2xl max-w-4xl mx-auto leading-relaxed">
-          Creating unforgettable weddings, birthdays, anniversaries and premium
-          celebrations across Chhattisgarh and Odisha.
+          Crafting unforgettable experiences through exceptional event planning, elegant décor, and personalized celebrations.
         </p>
 
         {/* Buttons */}

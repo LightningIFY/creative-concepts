@@ -23,9 +23,8 @@ export default function About() {
           </p>
 
           <p className="secondary-text text-lg leading-8 mt-4">
-            From intimate birthday celebrations to grand weddings,
-            anniversaries and corporate events, we bring creativity,
-            elegance and flawless execution to every occasion.
+            At Creative Concepts, we believe every celebration deserves to be extraordinary. With a passion for innovation and an eye for timeless elegance, we transform ideas into immersive experiences that captivate, inspire, and leave lasting impressions. From intimate gatherings to grand-scale celebrations, every detail is thoughtfully curated to reflect your unique story and vision.
+            Driven by creativity, precision, and impeccable execution, our team crafts bespoke events that seamlessly blend luxury with personalization. Whether it's a dream wedding, milestone celebration, or corporate gathering, we go beyond décor and planning—we create unforgettable moments, meaningful connections, and experiences that are remembered long after the event ends.
           </p>
 
         </div>
